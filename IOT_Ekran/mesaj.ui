@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1044</width>
+    <height>758</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+border-image: url(:/deneme2/deneme2.jpg);}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="bilgi">
+        <property name="styleSheet">
+         <string notr="true">font: 75 18pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.507463, y1:0.79, x2:0.507, y2:0.0511364, stop:0 rgba(108, 190, 167, 255), stop:1 rgba(255, 255, 255, 255));
+
+border-radius:15px;</string>
+        </property>
+        <property name="text">
+         <string>     Lütfen aşağıdaki tüm alanları eksiksiz doldurarak, mesajınızı bırakın. </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="7,2">
+      <property name="spacing">
+       <number>15</number>
+      </property>
+      <property name="leftMargin">
+       <number>15</number>
+      </property>
+      <property name="rightMargin">
+       <number>15</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0">
+        <property name="spacing">
+         <number>5</number>
+        </property>
+        <property name="topMargin">
+         <number>15</number>
+        </property>
+        <property name="bottomMargin">
+         <number>15</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,8">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="Ad_Soyad">
+            <property name="styleSheet">
+             <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+
+border-radius:10px;
+background-color: rgb(230, 255, 251);
+</string>
+            </property>
+            <property name="text">
+             <string>   Ad/Soyad:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="ad_soyad_yazialani">
+            <property name="styleSheet">
+             <string notr="true">border-radius:5px;
+background-color: rgb(230, 255, 251);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,8">
+          <item>
+           <widget class="QLabel" name="Telefon_Label">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(230, 255, 251);
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius:10px;
+</string>
+            </property>
+            <property name="text">
+             <string>   Telefon:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="Telefon_yazialani">
+            <property name="styleSheet">
+             <string notr="true">border-radius:5px;
+background-color: rgb(230, 255, 251);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="2,8">
+          <item>
+           <widget class="QLabel" name="Eposta_Label">
+            <property name="styleSheet">
+             <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(230, 255, 251);
+
+border-radius:10px;</string>
+            </property>
+            <property name="text">
+             <string>   E-posta:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="eposta_yazialani">
+            <property name="styleSheet">
+             <string notr="true">border-radius:5px;
+background-color: rgb(230, 255, 251);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="2,8">
+          <item>
+           <widget class="QLabel" name="Mesajiniz_Label">
+            <property name="styleSheet">
+             <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(230, 255, 251);
+border-radius:10px;
+</string>
+            </property>
+            <property name="text">
+             <string>  Mesajınız:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="mesaj_yazialani">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius:5px;
+background-color: rgb(230, 255, 251);
+
+
+
+</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="bilgi_yazialani">
+            <property name="styleSheet">
+             <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(239, 255, 251);
+
+border-radius:10px;</string>
+            </property>
+            <property name="text">
+             <string>                           </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="sayac">
+            <property name="text">
+             <string>             </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,0,0">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>60</number>
+        </property>
+        <property name="bottomMargin">
+         <number>30</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="Iptal">
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>15</pointsize>
+            <weight>9</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.536701, y1:0.796, x2:0.512438, y2:0, stop:0 rgba(0, 102, 139, 255), stop:1 rgba(255, 255, 255, 255));
+
+border-radius:15px;</string>
+          </property>
+          <property name="text">
+           <string>İptal</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Temizle">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.502, y1:0.716227, x2:0.522388, y2:0.051, stop:0 rgba(145, 103, 128, 255), stop:1 rgba(255, 255, 255, 255));
+
+border-radius:15px;</string>
+          </property>
+          <property name="text">
+           <string>Temizle</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Gonder">
+          <property name="styleSheet">
+           <string notr="true">font: 75 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.507463, y1:0.79, x2:0.507, y2:0.0511364, stop:0 rgba(108, 190, 167, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:15px;</string>
+          </property>
+          <property name="text">
+           <string>Gönder</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="klavye">
+      <property name="styleSheet">
+       <string notr="true">border-radius:10px;
+border-radius:15px;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1044</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

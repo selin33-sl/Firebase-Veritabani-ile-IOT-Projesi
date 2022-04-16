@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>967</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+border-image: url(:/deneme2/deneme2.jpg);}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,4,4,0">
+      <property name="topMargin">
+       <number>15</number>
+      </property>
+      <property name="bottomMargin">
+       <number>15</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>15</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="kullanici_bilgileri">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0.513, y1:0.284, x2:0.552239, y2:1, stop:0 rgba(82, 139, 158, 255), stop:1 rgba(255, 255, 255, 255));
+font: 75 17pt &quot;MS Shell Dlg 2&quot;;
+
+border-radius:15px;</string>
+          </property>
+          <property name="text">
+           <string>  Kullanıcı Bilgileri  </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,6,1">
+        <item>
+         <widget class="QLabel" name="kullanici_adi">
+          <property name="styleSheet">
+           <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.513, y1:0.284, x2:0.552239, y2:1, stop:0 rgba(82, 139, 158, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;</string>
+          </property>
+          <property name="text">
+           <string>  Kullanıcı Adı:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="kullaniciadi_yazialani">
+          <property name="styleSheet">
+           <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius:5px;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>100</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,6,1">
+        <item>
+         <widget class="QLabel" name="sifre">
+          <property name="styleSheet">
+           <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.513, y1:0.284, x2:0.552239, y2:1, stop:0 rgba(82, 139, 158, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;</string>
+          </property>
+          <property name="text">
+           <string>  Şifre:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="sifre_yazialani">
+          <property name="styleSheet">
+           <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius:5px;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>100</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="leftMargin">
+         <number>15</number>
+        </property>
+        <property name="rightMargin">
+         <number>15</number>
+        </property>
+        <item>
+         <spacer name="horizontalSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>10</width>
+            <height>10</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout" stretch="3,1,1,1">
+          <property name="spacing">
+           <number>12</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="bilgi_yazialani">
+            <property name="styleSheet">
+             <string notr="true">
+
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Temizle">
+            <property name="styleSheet">
+             <string notr="true">font: 75 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.478, y1:0.00568182, x2:0.527363, y2:0.994, stop:0 rgba(127, 10, 52, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;</string>
+            </property>
+            <property name="text">
+             <string>                  Temizle                 </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Onayla">
+            <property name="styleSheet">
+             <string notr="true">border-radius:10px;
+font: 75 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: qlineargradient(spread:pad, x1:0.498, y1:0.0227273, x2:0.512, y2:0.972, stop:0 rgba(128, 84, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>             Onayla              </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="iptal">
+            <property name="styleSheet">
+             <string notr="true">background-color: qlineargradient(spread:pad, x1:0.512, y1:0.153409, x2:0.527, y2:0.976955, stop:0 rgba(124, 60, 130, 255), stop:1 rgba(255, 255, 255, 255));
+font: 75 15pt &quot;MS Shell Dlg 2&quot;;
+border-radius:10px;</string>
+            </property>
+            <property name="text">
+             <string>İptal  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_8">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="klavye"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>967</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="deneme.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IOT_Ekran.iml" filepath="$PROJECT_DIR$/.idea/IOT_Ekran.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Kodlama Egzersizleri/.idea/Kodlama Egzersizleri.iml" filepath="$USER_HOME$/PycharmProjects/Kodlama Egzersizleri/.idea/Kodlama Egzersizleri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Teknofest/.idea/Teknofest.iml" filepath="$PROJECT_DIR$/../Teknofest/.idea/Teknofest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../YSA/.idea/YSA.iml" filepath="$PROJECT_DIR$/../YSA/.idea/YSA.iml" />
+    </modules>
+  </component>
+</project>
